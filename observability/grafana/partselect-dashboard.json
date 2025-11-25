@@ -1,0 +1,125 @@
+{
+  "id": null,
+  "uid": "partselect-observability",
+  "title": "PartSelect Agent — Unified Observability Dashboard",
+  "tags": ["partselect", "observability", "otel", "llm"],
+  "timezone": "browser",
+  "schemaVersion": 38,
+  "version": 1,
+  "refresh": "5s",
+  "panels": [
+    {
+      "type": "stat",
+      "title": "Total DeepSeek Calls",
+      "id": 1,
+      "datasource": "Prometheus",
+      "targets": [{
+        "expr": "deepseek_calls_total",
+        "refId": "A"
+      }],
+      "gridPos": { "x": 0, "y": 0, "w": 6, "h": 4 }
+    },
+
+    {
+      "type": "stat",
+      "title": "Total Vector Searches",
+      "id": 2,
+      "datasource": "Prometheus",
+      "targets": [{
+        "expr": "vector_search_total",
+        "refId": "A"
+      }],
+      "gridPos": { "x": 6, "y": 0, "w": 6, "h": 4 }
+    },
+
+    {
+      "type": "graph",
+      "title": "Request Latency — /chat",
+      "id": 3,
+      "datasource": "Prometheus",
+      "targets": [{
+        "expr": "rate(request_latency_seconds_bucket[1m])",
+        "refId": "A"
+      }],
+      "gridPos": { "x": 0, "y": 4, "w": 12, "h": 6 }
+    },
+
+    {
+      "type": "bar-gauge",
+      "title": "Agent Tool Usage Frequency",
+      "id": 4,
+      "datasource": "Prometheus",
+      "targets": [{
+        "expr": "sum by (tool_name) (agent_tool_invocations_total)",
+        "refId": "A"
+      }],
+      "options": { "orientation": "horizontal" },
+      "gridPos": { "x": 0, "y": 10, "w": 12, "h": 5 }
+    },
+
+    {
+      "type": "table",
+      "title": "Backend Errors",
+      "id": 5,
+      "datasource": "Prometheus",
+      "targets": [{
+        "expr": "sum by (type) (errors_total)",
+        "refId": "A"
+      }],
+      "gridPos": { "x": 0, "y": 15, "w": 12, "h": 6 }
+    },
+
+    {
+      "type": "timeseries",
+      "title": "LLM Response Token Length (Approx)",
+      "id": 6,
+      "datasource": "Prometheus",
+      "targets": [{
+        "expr": "rate(deepseek_calls_total[1m])",
+        "refId": "A"
+      }],
+      "gridPos": { "x": 0, "y": 21, "w": 12, "h": 6 }
+    },
+
+    {
+      "type": "timeseries",
+      "title": "Error Rate (per minute)",
+      "id": 7,
+      "datasource": "Prometheus",
+      "targets": [{
+        "expr": "rate(errors_total[1m])",
+        "refId": "A"
+      }],
+      "gridPos": { "x": 0, "y": 27, "w": 12, "h": 6 }
+    },
+
+    {
+      "type": "timeseries",
+      "title": "Tool Invocations Over Time",
+      "id": 8,
+      "datasource": "Prometheus",
+      "targets": [{
+        "expr": "rate(agent_tool_invocations_total[1m])",
+        "refId": "A"
+      }],
+      "gridPos": { "x": 0, "y": 33, "w": 12, "h": 6 }
+    },
+
+    {
+      "type": "alertlist",
+      "title": "System Alerts",
+      "id": 9,
+      "datasource": null,
+      "gridPos": { "x": 0, "y": 39, "w": 12, "h": 6 }
+    },
+
+    {
+      "type": "jaeger-search",
+      "title": "Trace Explorer (OTLP)",
+      "id": 10,
+      "datasource": "Tempo",
+      "gridPos": { "x": 0, "y": 45, "w": 12, "h": 10 }
+    }
+  ]
+}
+

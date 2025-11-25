@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Whirlpool W12345",
+    "id": "W12345",
+    "compatible": ["W12345", "W54321"],
+    "description": "Dishwasher motor assembly for multiple Whirlpool models."
+  },
+  {
+    "name": "Samsung Filter DA29-00020B",
+    "id": "DA29-00020B",
+    "compatible": ["RF28HMEDBSR", "RF23J9011SR"],
+    "description": "Genuine Samsung refrigerator water filter."
+  }
+]
+

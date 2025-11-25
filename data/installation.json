@@ -1,0 +1,23 @@
+[
+  {
+    "part": "dishwasher motor",
+    "steps": [
+      "Disconnect power to the dishwasher.",
+      "Remove the lower access panel.",
+      "Take out the old motor assembly.",
+      "Install the new motor and reconnect wiring.",
+      "Reattach access panel and restore power."
+    ]
+  },
+  {
+    "part": "refrigerator water filter",
+    "steps": [
+      "Turn the filter housing counterclockwise.",
+      "Pull the old filter out.",
+      "Insert the new filter firmly.",
+      "Twist clockwise until locked.",
+      "Run water for 2 minutes to flush air."
+    ]
+  }
+]
+

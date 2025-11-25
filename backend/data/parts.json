@@ -1,0 +1,530 @@
+[
+    {
+      "part_number": "PS11752778",
+      "name": "Dishwasher Door Latch Assembly",
+      "category": "dishwasher",
+      "description": "A replacement latch assembly used to secure the dishwasher door during cycles.",
+      "price": "$42.95",
+      "compatible_models": ["WDT780SAEM1", "WDT730PAHZ0", "ADB1500AWW", "FGHD2465NF1A"],
+      "symptoms": ["Door won’t close", "Dishwasher won’t start"],
+      "installation_texts": ["Disconnect power", "Remove inner door screws", "Replace latch", "Reassemble door"],
+      "troubleshooting_texts": ["Test switch continuity", "Check alignment of latch"]
+    },
+    {
+      "part_number": "PS1489237",
+      "name": "Dishwasher Upper Rack Wheel Kit",
+      "category": "dishwasher",
+      "description": "Set of replacement wheels for the upper dishwasher rack.",
+      "price": "$18.50",
+      "compatible_models": ["WDT730PAHZ0", "LDF6920ST", "FGID2466QF4A"],
+      "symptoms": ["Rack not sliding smoothly", "Upper rack falls off"],
+      "installation_texts": ["Pull out rack", "Replace wheel clips", "Reinstall rack"],
+      "troubleshooting_texts": []
+    },
+    {
+      "part_number": "PS5136129",
+      "name": "Dishwasher Water Inlet Valve",
+      "category": "dishwasher",
+      "description": "Controls water flow into the dishwasher during wash cycles.",
+      "price": "$32.99",
+      "compatible_models": ["FGHD2465NF1A", "WDT750SAHZ0", "SHX68T55UC"],
+      "symptoms": ["No water entering dishwasher", "Low fill level"],
+      "installation_texts": ["Shut off water", "Disconnect hose", "Remove old valve", "Install new valve"],
+      "troubleshooting_texts": ["Check water pressure", "Inspect inlet screen"]
+    },
+    {
+      "part_number": "PS8754243",
+      "name": "Dishwasher Heating Element",
+      "category": "dishwasher",
+      "description": "Heats water and dries dishes at the end of a cycle.",
+      "price": "$29.99",
+      "compatible_models": ["WDT970SAHZ0", "JDB1100AWS", "LDF7774ST"],
+      "symptoms": ["Dishes not drying", "Water not heating"],
+      "installation_texts": ["Remove lower panel", "Disconnect terminals", "Replace heating element"],
+      "troubleshooting_texts": ["Test element continuity", "Inspect terminals"]
+    },
+    {
+      "part_number": "PS2377760",
+      "name": "Dishwasher Spray Arm",
+      "category": "dishwasher",
+      "description": "Rotating arm that distributes water during cycles.",
+      "price": "$14.75",
+      "compatible_models": ["WDF520PADM7", "FGHD2433KF1", "MDB8959SFZ4"],
+      "symptoms": ["Dishes not getting clean", "Spray arm not spinning"],
+      "installation_texts": ["Unscrew center mount", "Replace spray arm"],
+      "troubleshooting_texts": ["Check for clogs in spray holes"]
+    },
+    {
+      "part_number": "PS11756397",
+      "name": "Dishwasher Drain Pump",
+      "category": "dishwasher",
+      "description": "Removes wastewater from the dishwasher tub.",
+      "price": "$85.80",
+      "compatible_models": ["LDF7774ST", "KDTM354DSS4"],
+      "symptoms": ["Dishwasher not draining", "Standing water"],
+      "installation_texts": ["Tilt dishwasher", "Disconnect wires", "Remove clamp", "Replace pump"],
+      "troubleshooting_texts": ["Check impeller for blockage"]
+    },
+  
+    {
+      "part_number": "PS12344231",
+      "name": "Refrigerator Water Filter - EveryDrop",
+      "category": "refrigerator",
+      "description": "Certified water filter that removes contaminants from drinking water.",
+      "price": "$49.95",
+      "compatible_models": ["WRF535SMBM00", "LFSS2612TF0", "WRS325FDAM04"],
+      "symptoms": ["Bad tasting water", "Slow water flow"],
+      "installation_texts": ["Open filter door", "Remove old filter", "Insert new filter"],
+      "troubleshooting_texts": ["Check for trapped air in line"]
+    },
+    {
+      "part_number": "PS11740359",
+      "name": "Refrigerator Evaporator Fan Motor",
+      "category": "refrigerator",
+      "description": "Circulates cold air across evaporator coils and into compartments.",
+      "price": "$72.20",
+      "compatible_models": ["FGHS2631PF4A", "WRX735SDBM00"],
+      "symptoms": ["Fridge warm, freezer cold", "Loud clicking noise"],
+      "installation_texts": ["Remove panel", "Disconnect motor harness", "Replace motor"],
+      "troubleshooting_texts": ["Check continuity", "Inspect fan blade"]
+    },
+    {
+      "part_number": "PS11738948",
+      "name": "Refrigerator Defrost Thermostat",
+      "category": "refrigerator",
+      "description": "Prevents ice buildup by regulating defrost cycles.",
+      "price": "$15.99",
+      "compatible_models": ["LFSS2612TF0", "MFI2568AES"],
+      "symptoms": ["Frost buildup", "Warm refrigerator"],
+      "installation_texts": ["Remove freezer panel", "Cut and crimp connectors", "Install thermostat"],
+      "troubleshooting_texts": ["Test thermostat for continuity"]
+    },
+    {
+      "part_number": "PS3492586",
+      "name": "Refrigerator Start Relay",
+      "category": "refrigerator",
+      "description": "Helps the compressor start by providing correct voltage.",
+      "price": "$25.40",
+      "compatible_models": ["FGHS2631PF", "WRF535SMBM00"],
+      "symptoms": ["Clicking sound", "Fridge not cooling"],
+      "installation_texts": ["Unplug unit", "Remove relay cover", "Replace relay"],
+      "troubleshooting_texts": ["Test compressor resistance"]
+    },
+    {
+      "part_number": "PS12335510",
+      "name": "Refrigerator Ice Maker Assembly",
+      "category": "refrigerator",
+      "description": "Produces ice cubes and dispenses into ice bin.",
+      "price": "$129.99",
+      "compatible_models": ["LFX28968ST", "GFSS2HCYCSS"],
+      "symptoms": ["Ice maker not working", "Ice cubes misshaped"],
+      "installation_texts": ["Disconnect harness", "Remove mounting screws", "Install new assembly"],
+      "troubleshooting_texts": ["Check inlet valve", "Inspect fill tube for freezing"]
+    },
+
+    {
+        "part_number": "PS9001123",
+        "name": "Dishwasher Drain Hose",
+        "category": "dishwasher",
+        "description": "Flexible corrugated drain hose that removes wastewater from the dishwasher.",
+        "price": "$21.95",
+        "compatible_models": ["WDT730PAHZ0", "FGHD2433KF1", "ADB1500AWW"],
+        "symptoms": ["Leaks under dishwasher", "Water backing up"],
+        "installation_texts": ["Disconnect old hose", "Attach new hose to drain pump", "Secure clamps"],
+        "troubleshooting_texts": ["Check for kinks", "Ensure high-loop installation"]
+      },
+      {
+        "part_number": "PS9002231",
+        "name": "Dishwasher Lower Spray Arm",
+        "category": "dishwasher",
+        "description": "Rotating spray arm that distributes water throughout the dishwasher tub.",
+        "price": "$17.45",
+        "compatible_models": ["FGHD2465NF1A", "WDF520PADM7"],
+        "symptoms": ["Unclean dishes", "Spray arm not rotating"],
+        "installation_texts": ["Unscrew center bolt", "Replace arm", "Tighten bolt"],
+        "troubleshooting_texts": ["Check for clogs", "Verify unobstructed rotation"]
+      },
+      {
+        "part_number": "PS9004451",
+        "name": "Dishwasher Float Switch",
+        "category": "dishwasher",
+        "description": "Prevents overfilling by detecting the water level in the tub.",
+        "price": "$13.99",
+        "compatible_models": ["LDF7774ST", "FGID2466QF4A"],
+        "symptoms": ["Dishwasher overfills", "Unit won’t fill"],
+        "installation_texts": ["Remove lower panel", "Disconnect switch wiring", "Replace switch"],
+        "troubleshooting_texts": ["Check for stuck float", "Inspect continuity"]
+      },
+      {
+        "part_number": "PS9005672",
+        "name": "Dishwasher Drain Impeller Kit",
+        "category": "dishwasher",
+        "description": "Helps pump out water efficiently during the drain cycle.",
+        "price": "$24.60",
+        "compatible_models": ["WDT970SAHZ0", "SHX68T55UC"],
+        "symptoms": ["Standing water", "Slow drain"],
+        "installation_texts": ["Remove pump housing", "Install impeller", "Reassemble"],
+        "troubleshooting_texts": ["Check for debris", "Verify motor rotation"]
+      },
+      {
+        "part_number": "PS9006124",
+        "name": "Dishwasher Door Seal Gasket",
+        "category": "dishwasher",
+        "description": "Creates a watertight seal around the door to prevent leaks.",
+        "price": "$19.90",
+        "compatible_models": ["MDB8959SFZ4", "WDT780SAEM1"],
+        "symptoms": ["Leaking around door", "Steam escaping"],
+        "installation_texts": ["Pull out old gasket", "Press new gasket into channel"],
+        "troubleshooting_texts": ["Check alignment", "Ensure door closes evenly"]
+      },
+      {
+        "part_number": "PS9008123",
+        "name": "Dishwasher Control Board",
+        "category": "dishwasher",
+        "description": "Main electronic board that controls dishwasher cycles.",
+        "price": "$129.80",
+        "compatible_models": ["KDTM354DSS4", "WDT750SAHZ0"],
+        "symptoms": ["Dishwasher won’t start", "Buttons unresponsive"],
+        "installation_texts": ["Remove front panel", "Disconnect wire harness", "Install control board"],
+        "troubleshooting_texts": ["Check fuse", "Inspect burn marks"]
+      },
+    
+    
+      {
+        "part_number": "PS9009011",
+        "name": "Refrigerator Door Gasket",
+        "category": "refrigerator",
+        "description": "Flexible magnetic gasket that seals the refrigerator door.",
+        "price": "$58.95",
+        "compatible_models": ["WRF535SMBM00", "LFSS2612TF0"],
+        "symptoms": ["Warm refrigerator", "Condensation buildup"],
+        "installation_texts": ["Warm gasket", "Snap into door channel"],
+        "troubleshooting_texts": ["Check door alignment", "Inspect for tears"]
+      },
+      {
+        "part_number": "PS9011122",
+        "name": "Refrigerator Compressor Start Device",
+        "category": "refrigerator",
+        "description": "Assists compressor in starting by sending correct current.",
+        "price": "$34.90",
+        "compatible_models": ["MFI2568AES", "FGHS2631PF"],
+        "symptoms": ["Clicking noise", "Fridge not cooling"],
+        "installation_texts": ["Remove back panel", "Disconnect relay", "Plug in new relay"],
+        "troubleshooting_texts": ["Test compressor ohms", "Check burnt smell"]
+      },
+      {
+        "part_number": "PS9012233",
+        "name": "Refrigerator Temperature Sensor",
+        "category": "refrigerator",
+        "description": "Monitors temperature for proper cooling.",
+        "price": "$12.50",
+        "compatible_models": ["GFSS2HCYCSS", "LFSS2612TE0"],
+        "symptoms": ["Freezer too cold", "Fridge too warm"],
+        "installation_texts": ["Remove panel", "Unclip sensor", "Install replacement"],
+        "troubleshooting_texts": ["Check resistance values"]
+      },
+      {
+        "part_number": "PS9013344",
+        "name": "Refrigerator Evaporator Coil",
+        "category": "refrigerator",
+        "description": "Removes heat from inside compartments by evaporating refrigerant.",
+        "price": "$189.99",
+        "compatible_models": ["LFX28968ST"],
+        "symptoms": ["Warm fridge", "Ice buildup"],
+        "installation_texts": ["Evacuate refrigerant (technician)", "Replace coil assembly"],
+        "troubleshooting_texts": ["Check frost pattern", "Inspect fan operation"]
+      },
+    
+    
+      {
+        "part_number": "PS9014411",
+        "name": "Dishwasher Rack Adjuster Kit",
+        "category": "dishwasher",
+        "description": "Enables adjusting height of the upper rack.",
+        "price": "$28.99",
+        "compatible_models": ["WDT750SAHZ0", "FGID2466QF4A"],
+        "symptoms": ["Upper rack uneven", "Rack stuck"],
+        "installation_texts": ["Remove old adjuster", "Snap new adjuster in place"],
+        "troubleshooting_texts": ["Ensure track not bent"]
+      },
+      {
+        "part_number": "PS9015510",
+        "name": "Dishwasher Detergent Dispenser",
+        "category": "dishwasher",
+        "description": "Releases detergent and rinse aid during cycles.",
+        "price": "$39.45",
+        "compatible_models": ["FGHD2433KF1", "WDT730PAHZ0"],
+        "symptoms": ["Soap not dissolving", "Dispenser won’t open"],
+        "installation_texts": ["Remove door panel", "Replace dispenser assembly"],
+        "troubleshooting_texts": ["Check wax motor", "Test spring tension"]
+      },
+      {
+        "part_number": "PS9016611",
+        "name": "Dishwasher Sump Filter Screen",
+        "category": "dishwasher",
+        "description": "Fine mesh filter that traps debris before water recirculation.",
+        "price": "$12.95",
+        "compatible_models": ["LDF5545ST", "MDB8959SFZ4"],
+        "symptoms": ["Poor cleaning", "Food particles left on dishes"],
+        "installation_texts": ["Twist filter counterclockwise", "Rinse debris", "Reinstall"],
+        "troubleshooting_texts": ["Check for cracks", "Ensure seated properly"]
+      },
+    
+    
+      {
+        "part_number": "PS9017701",
+        "name": "Refrigerator Air Damper Control",
+        "category": "refrigerator",
+        "description": "Regulates airflow between fresh food and freezer sections.",
+        "price": "$43.20",
+        "compatible_models": ["WRX735SDBM00", "LFSS2612TF0"],
+        "symptoms": ["Fridge too warm", "Freezer too cold"],
+        "installation_texts": ["Remove top cover", "Disconnect damper", "Install new damper"],
+        "troubleshooting_texts": ["Check for stuck damper door"]
+      },
+      {
+        "part_number": "PS9018809",
+        "name": "Refrigerator Dual Water Inlet Valve",
+        "category": "refrigerator",
+        "description": "Controls water supply to the ice maker and dispenser.",
+        "price": "$52.10",
+        "compatible_models": ["FGHS2631PF4A", "WRS325FDAM04"],
+        "symptoms": ["Ice maker not filling", "No water from dispenser"],
+        "installation_texts": ["Shut off water", "Disconnect tubing", "Replace valve"],
+        "troubleshooting_texts": ["Check solenoid resistance"]
+      },
+      {
+        "part_number": "PS9019904",
+        "name": "Refrigerator Defrost Heater",
+        "category": "refrigerator",
+        "description": "Melts frost from evaporator coils during defrost cycle.",
+        "price": "$33.80",
+        "compatible_models": ["LFSS2612TE0", "MFI2568AES"],
+        "symptoms": ["Ice buildup", "Warm refrigerator"],
+        "installation_texts": ["Remove freezer back panel", "Install heater element"],
+        "troubleshooting_texts": ["Check continuity"]
+      },
+      {
+        "part_number": "PS9020101",
+        "name": "Dishwasher Motor Circulation Pump",
+        "category": "dishwasher",
+        "description": "High-efficiency motor and pump assembly that circulates water during dishwashing cycles.",
+        "price": "$139.95",
+        "compatible_models": ["WDT780SAEM1", "LDF7774ST", "FGID2466QF4A"],
+        "symptoms": ["Loud humming noise", "Water not spraying", "Dishwasher stops mid-cycle"],
+        "installation_texts": ["Remove lower access panel", "Disconnect wiring harness", "Replace pump assembly"],
+        "troubleshooting_texts": ["Check impeller rotation", "Test motor continuity"]
+      },
+      {
+        "part_number": "PS9020222",
+        "name": "Dishwasher Tub Gasket Seal",
+        "category": "dishwasher",
+        "description": "Creates a watertight seal around the dishwasher tub to prevent leaks during operation.",
+        "price": "$23.40",
+        "compatible_models": ["FGHD2433KF1", "WDT730PAHZ0"],
+        "symptoms": ["Water leaking from door", "Steam escaping"],
+        "installation_texts": ["Pull out failed gasket", "Clean channel", "Press new gasket into place"],
+        "troubleshooting_texts": ["Check for gasket warping", "Ensure door closes properly"]
+      },
+      {
+        "part_number": "PS9020344",
+        "name": "Dishwasher Control Panel Overlay",
+        "category": "dishwasher",
+        "description": "Adhesive overlay containing dishwasher button labels and cycle indicators.",
+        "price": "$18.99",
+        "compatible_models": ["SHX68T55UC", "MDB8959SFZ4"],
+        "symptoms": ["Faded buttons", "Cracked overlay"],
+        "installation_texts": ["Remove control board cover", "Peel and replace overlay"],
+        "troubleshooting_texts": ["Check button alignment"]
+      },
+      {
+        "part_number": "PS9020467",
+        "name": "Dishwasher Water Level Sensor",
+        "category": "dishwasher",
+        "description": "Monitors water level in the dishwasher tub to prevent overfilling.",
+        "price": "$14.95",
+        "compatible_models": ["LDF7774ST", "KDTM354DSS4"],
+        "symptoms": ["Dishwasher overfills", "Cycle stops unexpectedly"],
+        "installation_texts": ["Remove kick plate", "Disconnect sensor", "Install replacement"],
+        "troubleshooting_texts": ["Test sensor continuity"]
+      },
+      {
+        "part_number": "PS9020592",
+        "name": "Dishwasher Heating Thermostat",
+        "category": "dishwasher",
+        "description": "Ensures the dishwasher maintains proper heating levels during wash cycles.",
+        "price": "$11.99",
+        "compatible_models": ["WDT970SAHZ0", "FGID2466QF4A"],
+        "symptoms": ["Water not heating", "Poor drying results"],
+        "installation_texts": ["Disconnect wires", "Replace thermostat"],
+        "troubleshooting_texts": ["Test thermostat continuity"]
+      },
+      {
+        "part_number": "PS9020711",
+        "name": "Dishwasher Door Handle Assembly",
+        "category": "dishwasher",
+        "description": "Replacement handle assembly for opening and securing the dishwasher door.",
+        "price": "$26.45",
+        "compatible_models": ["WDF520PADM7", "FGHD2465NF1A"],
+        "symptoms": ["Door difficult to open", "Handle broken"],
+        "installation_texts": ["Remove inner door screws", "Replace handle"],
+        "troubleshooting_texts": ["Inspect latch alignment"]
+      },
+      {
+        "part_number": "PS9020839",
+        "name": "Dishwasher Rinse Aid Cap",
+        "category": "dishwasher",
+        "description": "Replacement cap for dishwasher's rinse aid dispenser.",
+        "price": "$7.90",
+        "compatible_models": ["LDF6920ST", "WDT780SAEM1"],
+        "symptoms": ["Rinse aid leaking", "Missing cap"],
+        "installation_texts": ["Twist into place"],
+        "troubleshooting_texts": []
+      },
+      {
+        "part_number": "PS9020955",
+        "name": "Dishwasher Spray Arm Bearing Ring",
+        "category": "dishwasher",
+        "description": "Supports rotation of the spray arm and ensures smooth movement.",
+        "price": "$6.50",
+        "compatible_models": ["FGHD2433KF1", "MDB8959SFZ4"],
+        "symptoms": ["Spray arm stuck", "Poor cleaning"],
+        "installation_texts": ["Remove spray arm", "Replace bearing ring"],
+        "troubleshooting_texts": ["Check for mineral buildup"]
+      },
+      {
+        "part_number": "PS9021100",
+        "name": "Dishwasher High Limit Thermostat",
+        "category": "dishwasher",
+        "description": "Shuts off the heating element if water temperature gets too high.",
+        "price": "$13.95",
+        "compatible_models": ["JDB1100AWS", "WDT750SAHZ0"],
+        "symptoms": ["Dishwasher won't heat", "Cycle stops early"],
+        "installation_texts": ["Disconnect power", "Replace thermostat"],
+        "troubleshooting_texts": ["Test for continuity"]
+      },
+      {
+        "part_number": "PS9021250",
+        "name": "Dishwasher Drain Check Valve",
+        "category": "dishwasher",
+        "description": "Prevents dirty water from re-entering the dishwasher.",
+        "price": "$8.99",
+        "compatible_models": ["SHX68T55UC", "LDF7774ST"],
+        "symptoms": ["Dirty water backing up", "Poor drainage"],
+        "installation_texts": ["Insert valve into drain hose port"],
+        "troubleshooting_texts": []
+      },
+    
+      {
+        "part_number": "PS9022001",
+        "name": "Refrigerator Crisper Drawer",
+        "category": "refrigerator",
+        "description": "Humidity-controlled drawer for keeping produce fresh.",
+        "price": "$54.99",
+        "compatible_models": ["WRF535SMBM00", "LGX28968ST"],
+        "symptoms": ["Cracked drawer", "Difficulty sliding"],
+        "installation_texts": ["Slide drawer into rails"],
+        "troubleshooting_texts": ["Check rail alignment"]
+      },
+      {
+        "part_number": "PS9022120",
+        "name": "Refrigerator Water Tube Kit",
+        "category": "refrigerator",
+        "description": "Supplies water from the valve to the ice maker and dispenser.",
+        "price": "$18.49",
+        "compatible_models": ["WRS325FDAM04", "GFSS2HCYCSS"],
+        "symptoms": ["Leaks behind fridge", "No water flow"],
+        "installation_texts": ["Cut tube to length", "Connect using compression fittings"],
+        "troubleshooting_texts": ["Check for kinks"]
+      },
+      {
+        "part_number": "PS9022249",
+        "name": "Refrigerator Light Switch",
+        "category": "refrigerator",
+        "description": "Activates the refrigerator interior light when the door opens.",
+        "price": "$9.99",
+        "compatible_models": ["LFSS2612TF0", "WRX735SDBM00"],
+        "symptoms": ["Light not turning on", "Light won’t turn off"],
+        "installation_texts": ["Pop out old switch", "Connect wiring", "Insert new switch"],
+        "troubleshooting_texts": ["Check continuity"]
+      },
+      {
+        "part_number": "PS9022375",
+        "name": "Refrigerator Door Shelf Bin",
+        "category": "refrigerator",
+        "description": "Replacement bin for storing bottles and condiments on the refrigerator door.",
+        "price": "$28.20",
+        "compatible_models": ["LFSS2612TE0", "LFX28968ST"],
+        "symptoms": ["Cracked bin", "Unable to support weight"],
+        "installation_texts": ["Snap into mounting tabs"],
+        "troubleshooting_texts": []
+      },
+      {
+        "part_number": "PS9022499",
+        "name": "Refrigerator Defrost Control Board",
+        "category": "refrigerator",
+        "description": "Controls the automatic defrost cycle to prevent ice buildup.",
+        "price": "$88.90",
+        "compatible_models": ["MFI2568AES", "FGHS2631PF"],
+        "symptoms": ["Ice buildup", "Fridge too warm"],
+        "installation_texts": ["Remove rear panel", "Replace board"],
+        "troubleshooting_texts": ["Check sensor input"]
+      },
+      {
+        "part_number": "PS9022601",
+        "name": "Refrigerator Ice Bin Assembly",
+        "category": "refrigerator",
+        "description": "Stores ice produced by the ice maker.",
+        "price": "$42.75",
+        "compatible_models": ["WRF535SMBM00", "GFSS2HCYCSS"],
+        "symptoms": ["Cracked bin", "Ice spilling"],
+        "installation_texts": ["Slide bin onto rails"],
+        "troubleshooting_texts": []
+      },
+      {
+        "part_number": "PS9022728",
+        "name": "Refrigerator Freezer Fan Motor",
+        "category": "refrigerator",
+        "description": "Circulates cold air inside the freezer and into the refrigerator.",
+        "price": "$45.60",
+        "compatible_models": ["WRS325FDAM04", "LFX28968ST"],
+        "symptoms": ["Freezer warm", "Loud buzzing"],
+        "installation_texts": ["Remove back panel", "Replace motor"],
+        "troubleshooting_texts": ["Check for ice obstruction"]
+      },
+      {
+        "part_number": "PS9022845",
+        "name": "Refrigerator Condenser Fan Motor",
+        "category": "refrigerator",
+        "description": "Cools the compressor and condenser coils for proper refrigeration.",
+        "price": "$58.20",
+        "compatible_models": ["WRX735SDBM00", "LFSS2612TF0"],
+        "symptoms": ["Overheating", "Poor cooling"],
+        "installation_texts": ["Remove rear grill", "Install new motor"],
+        "troubleshooting_texts": ["Check fan blade for obstruction"]
+      },
+      {
+        "part_number": "PS9022951",
+        "name": "Refrigerator Ice Level Sensor",
+        "category": "refrigerator",
+        "description": "Detects the amount of ice in the bin for automatic shut-off.",
+        "price": "$21.99",
+        "compatible_models": ["LFX28968ST", "WRF535SMBM00"],
+        "symptoms": ["Ice maker won't stop", "No ice production"],
+        "installation_texts": ["Replace sensor harness"],
+        "troubleshooting_texts": ["Check sensor alignment"]
+      },
+      {
+        "part_number": "PS9023075",
+        "name": "Refrigerator Water Reservoir",
+        "category": "refrigerator",
+        "description": "Stores and cools water before it is dispensed.",
+        "price": "$39.25",
+        "compatible_models": ["LFSS2612TE0", "WRX735SDBM00"],
+        "symptoms": ["Slow water flow", "Leaking behind crisper drawers"],
+        "installation_texts": ["Disconnect lines", "Replace reservoir"],
+        "troubleshooting_texts": ["Check for frozen water lines"]
+      }
+
+  ]
+  
