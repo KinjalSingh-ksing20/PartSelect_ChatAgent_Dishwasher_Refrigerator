@@ -1,5 +1,3 @@
-# backend/agents/router.py
-
 from typing import Dict, Any
 
 from tools.search_part import search_part
@@ -31,7 +29,6 @@ class ToolRouter:
                 part_number = entities.get("part_number")
                 model_number = entities.get("model_number")
 
-                # --- INSTALLATION ---
                 if intent == "installation":
                     tool_name = "installation"
                     agent_tool_invocations_total.labels(tool_name).inc()
@@ -40,8 +37,7 @@ class ToolRouter:
                         "tool": tool_name,
                         "output": get_installation_steps(part_number or query),
                     }
-
-                # --- COMPATIBILITY ---
+ 
                 if intent == "compatibility":
                     tool_name = "compatibility"
                     agent_tool_invocations_total.labels(tool_name).inc()
@@ -51,7 +47,6 @@ class ToolRouter:
                         "output": check_compatibility(part_number, model_number),
                     }
 
-                # --- TROUBLESHOOTING ---
                 if intent == "troubleshooting":
                     tool_name = "troubleshooting"
                     agent_tool_invocations_total.labels(tool_name).inc()
@@ -61,7 +56,6 @@ class ToolRouter:
                         "output": troubleshoot_issue(query),
                     }
 
-                # --- PRODUCT LOOKUP ---
                 if intent == "product_lookup":
                     tool_name = "search_part"
                     agent_tool_invocations_total.labels(tool_name).inc()

@@ -8657,26 +8657,29 @@
     "rating": 4.9,
     "review_count": 347,
     "image_url": "https://via.placeholder.com/300x300?text=WPW10321304",
+
     "description": "Genuine OEM refrigerator door bin designed for Whirlpool, KitchenAid, Maytag, and Amana side-by-side refrigerators. Clear plastic with reinforced rim stores jars, bottles, and condiments securely.",
-    "compatible_models": [
-      "LFX28968ST",
-      "WRF535SMMB00",
-      "WRS325FDAM02"
-    ],
+
+    "compatible_models": ["LFX28968ST", "WRF535SMMB00", "WRS325FDAM02"],
+
     "symptoms_vector": [
       "door shelf cracked",
       "bottles falling out",
       "refrigerator door not closing",
       "broken plastic bin"
     ],
+
     "installation_metadata": {
       "difficulty": "Very Easy",
-      "time_required": "2\u20135 minutes",
+      "time_required": "2–5 minutes",
       "tools_needed": []
     },
-    "installation_guide_markdown": "Lift old bin straight up \u2192 Align new bin into door slots \u2192 Slide downward until locked",
-    "troubleshooting_tips": "Some refrigerator doors use multiple bin sizes\u2014verify you are replacing the correct position."
+
+    "installation_guide_markdown": "Lift old bin straight up → Align new bin into door slots → Slide downward until locked",
+
+    "troubleshooting_tips": "Some refrigerator doors use multiple bin sizes—verify you are replacing the correct position."
   },
+
   {
     "id": "PS12364199",
     "part_number": "242126602",
@@ -8689,24 +8692,28 @@
     "rating": 4.7,
     "review_count": 131,
     "image_url": "https://via.placeholder.com/300x300?text=242126602",
+
     "description": "Clear manufacturer-certified refrigerator door bin that attaches directly to the Frigidaire door liner to store jars, bottles, and condiments.",
-    "compatible_models": [
-      "LFSS2612TF",
-      "FGSS2HCYCSS"
-    ],
+
+    "compatible_models": ["LFSS2612TF", "FGSS2HCYCSS"],
+
     "symptoms_vector": [
       "bin cracked",
       "items tipping",
       "door shelf missing"
     ],
+
     "installation_metadata": {
       "difficulty": "Very Easy",
-      "time_required": "2\u20135 minutes",
+      "time_required": "2–5 minutes",
       "tools_needed": []
     },
-    "installation_guide_markdown": "Align bin into door slot \u2192 Slide down until fully seated",
+
+    "installation_guide_markdown": "Align bin into door slot → Slide down until fully seated",
+
     "troubleshooting_tips": "Top and bottom door bins may be different sizes."
   },
+
   {
     "id": "PS11701542",
     "part_number": "EDR1RXD1",
@@ -8719,25 +8726,29 @@
     "rating": 4.8,
     "review_count": 108,
     "image_url": "https://via.placeholder.com/300x300?text=EDR1RXD1",
+
     "description": "High-capacity water filter that removes chlorine, sediment, and contaminants to ensure clean drinking water and ice.",
-    "compatible_models": [
-      "WRF535SMMB00",
-      "LFX28968ST"
-    ],
+
+    "compatible_models": ["WRF535SMMB00", "LFX28968ST"],
+
     "symptoms_vector": [
       "ice tastes bad",
       "slow ice production",
       "water tastes cloudy",
       "ice maker not dispensing properly"
     ],
+
     "installation_metadata": {
       "difficulty": "Easy",
-      "time_required": "5\u201310 minutes",
+      "time_required": "5–10 minutes",
       "tools_needed": []
     },
-    "installation_guide_markdown": "Twist old filter counter-clockwise \u2192 Insert new filter \u2192 Twist to lock \u2192 Run 3 gallons of water",
+
+    "installation_guide_markdown": "Twist old filter counter-clockwise → Insert new filter → Twist to lock → Run 3 gallons of water",
+
     "troubleshooting_tips": "Always flush new filters before use."
   },
+
   {
     "id": "PS12335510",
     "part_number": "W10882923",
@@ -8750,27 +8761,29 @@
     "rating": 4.6,
     "review_count": 201,
     "image_url": "https://via.placeholder.com/300x300?text=Ice+Maker",
+
     "description": "Complete OEM ice maker that restores automatic ice cube production and dispensing.",
-    "compatible_models": [
-      "LFX28968ST",
-      "WRF535SMMB00"
-    ],
+
+    "compatible_models": ["LFX28968ST", "WRF535SMMB00"],
+
     "symptoms_vector": [
       "ice maker not making ice",
       "ice leaking",
       "jammed ejector arm",
       "no ice dispensing"
     ],
+
     "installation_metadata": {
       "difficulty": "Medium",
-      "time_required": "30\u201360 minutes",
-      "tools_needed": [
-        "Phillips screwdriver"
-      ]
+      "time_required": "30–60 minutes",
+      "tools_needed": ["Phillips screwdriver"]
     },
-    "installation_guide_markdown": "Unplug fridge \u2192 Remove ice bin \u2192 Disconnect harness \u2192 Replace unit \u2192 Restore power",
-    "troubleshooting_tips": "Check freezer temperature is below 5\u00b0F."
+
+    "installation_guide_markdown": "Unplug fridge → Remove ice bin → Disconnect harness → Replace unit → Restore power",
+
+    "troubleshooting_tips": "Check freezer temperature is below 5°F."
   },
+
   {
     "id": "PS734935",
     "part_number": "240534901",
@@ -8783,24 +8796,28 @@
     "rating": 4.7,
     "review_count": 215,
     "image_url": "https://via.placeholder.com/300x300?text=240534901",
+
     "description": "White OEM retainer bar that holds bottles and jars inside refrigerator door racks.",
-    "compatible_models": [
-      "LFSS2612TE",
-      "FGHS2631PF"
-    ],
+
+    "compatible_models": ["LFSS2612TE", "FGHS2631PF"],
+
     "symptoms_vector": [
       "bottles falling",
       "door rack sagging",
       "broken plastic rail"
     ],
+
     "installation_metadata": {
       "difficulty": "Very Easy",
       "time_required": "3 minutes",
       "tools_needed": []
     },
-    "installation_guide_markdown": "Lift old bar \u2192 Snap new bar into door slots",
+
+    "installation_guide_markdown": "Lift old bar → Snap new bar into door slots",
+
     "troubleshooting_tips": "Avoid overloading with heavy liquids."
   },
+
   {
     "id": "PS11739119",
     "part_number": "WP2188656",
@@ -8813,24 +8830,28 @@
     "rating": 4.9,
     "review_count": 486,
     "image_url": "https://via.placeholder.com/300x300?text=WP2188656",
+
     "description": "Humidity-controlled produce drawer that preserves fruits and vegetables longer.",
-    "compatible_models": [
-      "WRF535SMMB00",
-      "LFX28968ST"
-    ],
+
+    "compatible_models": ["WRF535SMMB00", "LFX28968ST"],
+
     "symptoms_vector": [
       "drawer cracked",
       "drawer stuck",
       "vegetables spoiling fast"
     ],
+
     "installation_metadata": {
       "difficulty": "Easy",
       "time_required": "5 minutes",
       "tools_needed": []
     },
-    "installation_guide_markdown": "Pull out old drawer \u2192 Slide new drawer into rails",
+
+    "installation_guide_markdown": "Pull out old drawer → Slide new drawer into rails",
+
     "troubleshooting_tips": "Inspect support rails if sliding feels rough."
   },
+
   {
     "id": "PS2358880",
     "part_number": "241993101",
@@ -8843,25 +8864,28 @@
     "rating": 4.5,
     "review_count": 82,
     "image_url": "https://via.placeholder.com/300x300?text=241993101",
+
     "description": "Front support stud that secures the refrigerator crisper shelf.",
-    "compatible_models": [
-      "FGHS2631PF"
-    ],
+
+    "compatible_models": ["FGHS2631PF"],
+
     "symptoms_vector": [
       "drawer sagging",
       "crisper shelf collapsed",
       "door not closing"
     ],
+
     "installation_metadata": {
       "difficulty": "Easy",
       "time_required": "10 minutes",
-      "tools_needed": [
-        "Flat screwdriver"
-      ]
+      "tools_needed": ["Flat screwdriver"]
     },
-    "installation_guide_markdown": "Remove crisper \u2192 Push old pin \u2192 Install new support \u2192 Lock pin",
+
+    "installation_guide_markdown": "Remove crisper → Push old pin → Install new support → Lock pin",
+
     "troubleshooting_tips": "Remove food before replacing."
   },
+
   {
     "id": "PS11752779",
     "part_number": "W11174872",
@@ -8874,58 +8898,62 @@
     "rating": 4.8,
     "review_count": 124,
     "image_url": "https://via.placeholder.com/300x300?text=Dishwasher+Latch",
+
     "description": "OEM dishwasher door latch that locks the door during wash cycles and enables the safety interlock.",
-    "compatible_models": [
-      "WDT780SAEM1",
-      "WDT730PAHZ0"
-    ],
+
+    "compatible_models": ["WDT780SAEM1", "WDT730PAHZ0"],
+
     "symptoms_vector": [
       "dishwasher not starting",
-      "door won\u2019t latch",
+      "door won’t latch",
       "cycle stops mid-wash"
     ],
+
     "installation_metadata": {
       "difficulty": "Easy",
       "time_required": "20 minutes",
-      "tools_needed": [
-        "Torx T-15"
-      ]
+      "tools_needed": ["Torx T-15"]
     },
-    "installation_guide_markdown": "Unplug unit \u2192 Remove top panel \u2192 Replace latch \u2192 Reassemble",
-    "troubleshooting_tips": "Check strike alignment if latch clicks but won\u2019t hold."
+
+    "installation_guide_markdown": "Unplug unit → Remove top panel → Replace latch → Reassemble",
+
+    "troubleshooting_tips": "Check strike alignment if latch clicks but won’t hold."
   },
+
   {
     "id": "PS904576",
     "part_number": "W10780877",
     "name": "Dishwasher Circulation Pump",
     "brand": "KitchenAid",
     "category": "Dishwasher Pumps",
-    "price": 159.0,
+    "price": 159.00,
     "currency": "USD",
     "in_stock": true,
     "rating": 4.7,
     "review_count": 98,
     "image_url": "https://via.placeholder.com/300x300?text=Pump",
+
     "description": "Circulation pump that drives water through spray arms during wash cycles.",
-    "compatible_models": [
-      "KDTM354ESS3"
-    ],
+
+    "compatible_models": ["KDTM354ESS3"],
+
     "symptoms_vector": [
       "dishwasher hums",
       "no water spray",
       "dishes not clean"
     ],
+
     "installation_metadata": {
       "difficulty": "Hard",
       "time_required": "90 minutes",
-      "tools_needed": [
-        "Nut driver",
-        "Torx"
-      ]
+      "tools_needed": ["Nut driver", "Torx"]
     },
-    "installation_guide_markdown": "Remove toe panel \u2192 Disconnect hoses \u2192 Replace pump",
+
+    "installation_guide_markdown": "Remove toe panel → Disconnect hoses → Replace pump",
+
     "troubleshooting_tips": "Inspect impeller for debris."
   },
+
   {
     "id": "PS10065203",
     "part_number": "WD21X10490",
@@ -8938,23 +8966,25 @@
     "rating": 4.6,
     "review_count": 112,
     "image_url": "https://via.placeholder.com/300x300?text=Drain+Pump",
+
     "description": "Drain pump that expels water from the dishwasher tub after washing.",
-    "compatible_models": [
-      "GDF650SMJ0ES"
-    ],
+
+    "compatible_models": ["GDF650SMJ0ES"],
+
     "symptoms_vector": [
       "dishwasher not draining",
       "standing water",
       "drain error"
     ],
+
     "installation_metadata": {
       "difficulty": "Medium",
       "time_required": "40 minutes",
-      "tools_needed": [
-        "Nut driver"
-      ]
+      "tools_needed": ["Nut driver"]
     },
-    "installation_guide_markdown": "Tilt dishwasher \u2192 Remove pump \u2192 Install replacement",
+
+    "installation_guide_markdown": "Tilt dishwasher → Remove pump → Install replacement",
+
     "troubleshooting_tips": "Check drain hose for clogs first."
   },
   {
@@ -8969,13 +8999,16 @@
     "rating": 4.9,
     "review_count": 347,
     "image_url": "https://via.placeholder.com/300x300?text=WPW10321304+Door+Bin",
+
     "description": "This genuine OEM refrigerator door shelf bin is designed to fit many side-by-side refrigerator models from Whirlpool, KitchenAid, Maytag, and Amana. The clear plastic construction with white trim provides durable, visible storage for jars, bottles, and condiments. It mounts directly onto the refrigerator door interior and restores lost storage capacity caused by cracked or broken original bins.",
+
     "compatible_models": [
       "LFX28968ST",
       "GFSS2HCYCSS",
       "WRF535SMMB00",
       "WRS325FDAM02"
     ],
+
     "symptoms_vector": [
       "refrigerator door bin cracked",
       "items falling out of door shelf",
@@ -8983,14 +9016,18 @@
       "broken plastic shelf bin",
       "grocery items tipping inside fridge"
     ],
+
     "installation_metadata": {
       "difficulty": "Very Easy",
       "time_required": "2-5 minutes",
       "tools_needed": []
     },
-    "installation_guide_markdown": "Lift the damaged bin upward to release it \u2192 Align the new bin with the mounting slots \u2192 Slide downward until fully seated \u2192 Verify the bin locks securely into place.",
+
+    "installation_guide_markdown": "Lift the damaged bin upward to release it → Align the new bin with the mounting slots → Slide downward until fully seated → Verify the bin locks securely into place.",
+
     "troubleshooting_tips": "If the bin does not snap in securely, confirm that the refrigerator model uses the same mounting tab design. Some models use multiple bin sizes."
   },
+
   {
     "id": "PS12335510",
     "part_number": "W10882923",
@@ -9003,12 +9040,15 @@
     "rating": 4.6,
     "review_count": 201,
     "image_url": "https://via.placeholder.com/300x300?text=Ice+Maker+Assembly",
+
     "description": "This complete Whirlpool OEM refrigerator ice maker assembly restores full automatic ice production. It includes the ice mold, motor drive module, water fill system interface, and ejector components. Designed to eliminate no-ice, leaking, and dispenser failures common in aging or blocked ice maker units.",
+
     "compatible_models": [
       "LFX28968ST",
       "GFSS2HCYCSS",
       "WRF535SMMB00"
     ],
+
     "symptoms_vector": [
       "ice maker not making ice",
       "ice maker leaking water",
@@ -9016,16 +9056,18 @@
       "ice maker jammed",
       "no ice dispensing from door"
     ],
+
     "installation_metadata": {
       "difficulty": "Medium",
-      "time_required": "30\u201360 minutes",
-      "tools_needed": [
-        "Phillips screwdriver"
-      ]
+      "time_required": "30–60 minutes",
+      "tools_needed": ["Phillips screwdriver"]
     },
-    "installation_guide_markdown": "Unplug refrigerator \u2192 Turn off water supply \u2192 Remove ice bin \u2192 Disconnect wiring harness \u2192 Remove mounting screws \u2192 Install new ice maker \u2192 Reconnect supply and power",
-    "troubleshooting_tips": "If ice production does not resume after installation, verify the freezer temperature is between 0\u20135\u00b0F and check the water inlet valve for obstruction."
+
+    "installation_guide_markdown": "Unplug refrigerator → Turn off water supply → Remove ice bin → Disconnect wiring harness → Remove mounting screws → Install new ice maker → Reconnect supply and power",
+
+    "troubleshooting_tips": "If ice production does not resume after installation, verify the freezer temperature is between 0–5°F and check the water inlet valve for obstruction."
   },
+
   {
     "id": "PS734935",
     "part_number": "240534901",
@@ -9038,26 +9080,33 @@
     "rating": 4.7,
     "review_count": 215,
     "image_url": "https://via.placeholder.com/300x300?text=240534901+Retainer+Bar",
+
     "description": "This manufacturer-certified refrigerator door shelf retainer bar is a white plastic support rail that prevents bottles and jars from tipping out of the door rack. It measures approximately 25 inches wide and installs without tools. Warping, cracking, or breakage commonly occurs due to long-term weight loading.",
+
     "compatible_models": [
       "FGHS2631PF",
       "LFSS2612TE",
       "FFSS2615TS"
     ],
+
     "symptoms_vector": [
       "bottles falling out of refrigerator door",
       "door shelf sagging",
       "broken plastic door rail",
       "refrigerator door storage unstable"
     ],
+
     "installation_metadata": {
       "difficulty": "Very Easy",
       "time_required": "1-3 minutes",
       "tools_needed": []
     },
-    "installation_guide_markdown": "Lift damaged retainer upward \u2192 Align replacement over side slots \u2192 Press downward until fully locked",
+
+    "installation_guide_markdown": "Lift damaged retainer upward → Align replacement over side slots → Press downward until fully locked",
+
     "troubleshooting_tips": "If repeated breakage occurs, avoid overloading door shelves with heavy liquids."
   },
+
   {
     "id": "PS11739119",
     "part_number": "WP2188656",
@@ -9070,12 +9119,15 @@
     "rating": 4.9,
     "review_count": 486,
     "image_url": "https://via.placeholder.com/300x300?text=Crisper+Drawer",
+
     "description": "This refrigerator crisper drawer with adjustable humidity control preserves fruits and vegetables by regulating moisture levels inside the storage compartment. The clear, high-impact plastic design resists cracking but may fail over long-term sliding stress.",
+
     "compatible_models": [
       "WRF535SMMB00",
       "LFX28968ST",
       "WRS325FDAM02"
     ],
+
     "symptoms_vector": [
       "crisper drawer stuck",
       "drawer cracked",
@@ -9083,14 +9135,18 @@
       "high humidity buildup",
       "drawer hard to slide"
     ],
+
     "installation_metadata": {
       "difficulty": "Easy",
-      "time_required": "5\u201310 minutes",
+      "time_required": "5–10 minutes",
       "tools_needed": []
     },
-    "installation_guide_markdown": "Remove damaged crisper drawer \u2192 Slide new drawer into support rails \u2192 Verify smooth movement",
+
+    "installation_guide_markdown": "Remove damaged crisper drawer → Slide new drawer into support rails → Verify smooth movement",
+
     "troubleshooting_tips": "If drawer binds after replacement, inspect the center support rail for cracks."
   },
+
   {
     "id": "PS2358880",
     "part_number": "241993101",
@@ -9103,27 +9159,29 @@
     "rating": 4.5,
     "review_count": 82,
     "image_url": "https://via.placeholder.com/300x300?text=241993101+Support",
+
     "description": "This OEM front support stud secures the crisper cover inside the refrigerator interior wall. Failure causes drawer alignment issues and prevents proper door closure. It mounts using a locking pin system.",
+
     "compatible_models": [
       "FGHS2631PF",
       "LFSS2612TE"
     ],
+
     "symptoms_vector": [
       "door will not close",
       "crisper shelf collapsed",
       "drawer misaligned",
       "broken plastic support"
     ],
+
     "installation_metadata": {
       "difficulty": "Easy",
-      "time_required": "10\u201315 minutes",
-      "tools_needed": [
-        "Flathead screwdriver",
-        "Putty knife",
-        "Soft hammer"
-      ]
+      "time_required": "10–15 minutes",
+      "tools_needed": ["Flathead screwdriver", "Putty knife", "Soft hammer"]
     },
-    "installation_guide_markdown": "Remove food and drawers \u2192 Push old pin through wall \u2192 Remove broken support \u2192 Insert new support \u2192 Tap pin in place",
+
+    "installation_guide_markdown": "Remove food and drawers → Push old pin through wall → Remove broken support → Insert new support → Tap pin in place",
+
     "troubleshooting_tips": "If pin will not lock, ensure the support is aligned with the original mounting hole."
   },
   {
@@ -9138,27 +9196,34 @@
     "rating": 4.9,
     "review_count": 347,
     "image_url": "https://via.placeholder.com/300x300?text=Door+Bin",
+
     "description": "This refrigerator door bin is a genuine OEM replacement designed to fit many side-by-side refrigerator models. Compatible with brands like Whirlpool, KitchenAid, Maytag, and Amana, it attaches to the interior refrigerator door and provides organized storage for jars and bottles. Featuring a clear design with white trim, this bin is durable, easy to clean, and installs without tools.",
+
     "compatible_models": [
       "LFX28968ST",
       "GFSS2HCYCSS",
       "WRS325FDAM02",
       "WRF535SMMB00"
     ],
+
     "symptoms_vector": [
       "door bin cracked",
       "refrigerator door shelf broken",
       "items falling from refrigerator door",
-      "door won\u2019t close properly due to damaged bin"
+      "door won’t close properly due to damaged bin"
     ],
+
     "installation_metadata": {
       "difficulty": "Very Easy",
       "time_required": "2-5 minutes",
       "tools_needed": []
     },
-    "installation_guide_markdown": "Remove the damaged door bin by lifting it upward \u2192 Align the new bin with the mounting slots \u2192 Slide downward until fully seated. No tools are required.",
+
+    "installation_guide_markdown": "Remove the damaged door bin by lifting it upward → Align the new bin with the mounting slots → Slide downward until fully seated. No tools are required.",
+
     "troubleshooting_tips": "If the bin does not lock in place, confirm the model number and verify that the mounting tabs are aligned correctly."
   },
+
   {
     "id": "PS12335510",
     "part_number": "W10882923",
@@ -9171,12 +9236,15 @@
     "rating": 4.6,
     "review_count": 201,
     "image_url": "https://via.placeholder.com/300x300?text=Ice+Maker",
+
     "description": "This complete refrigerator ice maker assembly produces and dispenses ice cubes into the freezer bin. It includes the motor module, ice mold, and control components required to restore ice production.",
+
     "compatible_models": [
       "LFX28968ST",
       "GFSS2HCYCSS",
       "WRF535SMMB00"
     ],
+
     "symptoms_vector": [
       "ice maker not working",
       "no ice production",
@@ -9184,16 +9252,18 @@
       "ice maker leaking water",
       "ice maker won't dispense ice"
     ],
+
     "installation_metadata": {
       "difficulty": "Medium",
       "time_required": "30-60 minutes",
-      "tools_needed": [
-        "Phillips screwdriver"
-      ]
+      "tools_needed": ["Phillips screwdriver"]
     },
-    "installation_guide_markdown": "Unplug refrigerator \u2192 Turn off water supply \u2192 Remove ice bin \u2192 Disconnect wiring harness \u2192 Remove mounting screws \u2192 Install new ice maker \u2192 Reconnect power and water",
-    "troubleshooting_tips": "If the ice maker still does not produce ice after installation, check the water inlet valve, fill tube for ice blockage, and verify proper freezer temperature (0\u20135\u00b0F)."
+
+    "installation_guide_markdown": "Unplug refrigerator → Turn off water supply → Remove ice bin → Disconnect wiring harness → Remove mounting screws → Install new ice maker → Reconnect power and water",
+
+    "troubleshooting_tips": "If the ice maker still does not produce ice after installation, check the water inlet valve, fill tube for ice blockage, and verify proper freezer temperature (0–5°F)."
   },
+
   {
     "id": "PS11752779",
     "part_number": "W11174872",
@@ -9206,12 +9276,15 @@
     "rating": 4.8,
     "review_count": 124,
     "image_url": "https://via.placeholder.com/300x300?text=Dishwasher+Latch",
+
     "description": "This Genuine OEM dishwasher door latch assembly secures the dishwasher door during operation. If the latch fails, the safety switch prevents the dishwasher from starting.",
+
     "compatible_models": [
       "WDT780SAEM1",
       "WDT730PAHZ0",
       "ADB1500AWW"
     ],
+
     "symptoms_vector": [
       "dishwasher door won't close",
       "cycle won't start",
@@ -9219,16 +9292,18 @@
       "latch feels loose",
       "control panel lights on but no start"
     ],
+
     "installation_metadata": {
       "difficulty": "Easy",
       "time_required": "15-30 minutes",
-      "tools_needed": [
-        "Torx T-15 screwdriver"
-      ]
+      "tools_needed": ["Torx T-15 screwdriver"]
     },
-    "installation_guide_markdown": "Disconnect power at breaker \u2192 Open dishwasher door \u2192 Remove top inner panel screws \u2192 Disconnect old latch wiring \u2192 Install new latch \u2192 Reattach panel \u2192 Restore power",
+
+    "installation_guide_markdown": "Disconnect power at breaker → Open dishwasher door → Remove top inner panel screws → Disconnect old latch wiring → Install new latch → Reattach panel → Restore power",
+
     "troubleshooting_tips": "If the dishwasher still does not start after replacement, inspect the door strike on the tub frame for misalignment."
   },
+
   {
     "id": "PS11752778",
     "part_number": "PS11752778",
@@ -9241,13 +9316,11 @@
     "rating": 4.8,
     "review_count": 124,
     "image_url": "https://via.placeholder.com/300x300?text=Door+Latch",
+
     "description": "This Genuine OEM door latch assembly secures the dishwasher door during operation. If the latch fails, the control board prevents the dishwasher from starting for safety reasons.",
-    "compatible_models": [
-      "WDT780SAEM1",
-      "WDT730PAHZ0",
-      "ADB1500AWW",
-      "FGHD2465NF1A"
-    ],
+
+    "compatible_models": ["WDT780SAEM1", "WDT730PAHZ0", "ADB1500AWW", "FGHD2465NF1A"],
+
     "symptoms_vector": [
       "dishwasher door won't close",
       "cycle won't start",
@@ -9255,16 +9328,18 @@
       "latch feels loose",
       "control panel lights on but no start"
     ],
+
     "installation_metadata": {
       "difficulty": "Easy",
       "time_required": "15-30 minutes",
-      "tools_needed": [
-        "Torx T-15 screwdriver"
-      ]
+      "tools_needed": ["Torx T-15 screwdriver"]
     },
-    "installation_guide_markdown": "Disconnect power \u2192 Open door \u2192 Remove inner screws \u2192 Remove old latch \u2192 Install new latch \u2192 Reattach panel \u2192 Restore power",
+
+    "installation_guide_markdown": "Disconnect power → Open door → Remove inner screws → Remove old latch → Install new latch → Reattach panel → Restore power",
+
     "troubleshooting_tips": "If the dishwasher still does not start, inspect the door strike for alignment."
   },
+
   {
     "id": "PS12335510",
     "part_number": "PS12335510",
@@ -9277,27 +9352,29 @@
     "rating": 4.6,
     "review_count": 201,
     "image_url": "https://via.placeholder.com/300x300?text=Ice+Maker",
+
     "description": "Complete OEM ice maker assembly responsible for producing and ejecting ice cubes into the freezer bin.",
-    "compatible_models": [
-      "LFX28968ST",
-      "GFSS2HCYCSS"
-    ],
+
+    "compatible_models": ["LFX28968ST", "GFSS2HCYCSS"],
+
     "symptoms_vector": [
       "ice maker not working",
       "no ice production",
       "ice cubes misshapen",
       "ice maker leaking water"
     ],
+
     "installation_metadata": {
       "difficulty": "Medium",
       "time_required": "30-60 minutes",
-      "tools_needed": [
-        "Phillips screwdriver"
-      ]
+      "tools_needed": ["Phillips screwdriver"]
     },
-    "installation_guide_markdown": "Unplug refrigerator \u2192 Remove ice bin \u2192 Disconnect harness \u2192 Unscrew ice maker \u2192 Swap in replacement \u2192 Test cycle",
+
+    "installation_guide_markdown": "Unplug refrigerator → Remove ice bin → Disconnect harness → Unscrew ice maker → Swap in replacement → Test cycle",
+
     "troubleshooting_tips": "Inspect the water inlet valve and fill tube for ice blockage."
   },
+
   {
     "id": "PS9020101",
     "part_number": "PS9020101",
@@ -9310,29 +9387,29 @@
     "rating": 4.7,
     "review_count": 89,
     "image_url": "https://via.placeholder.com/300x300?text=Pump",
+
     "description": "High-efficiency circulation pump motor that drives water spray arms during the wash cycle.",
-    "compatible_models": [
-      "WDT780SAEM1",
-      "LDF7774ST",
-      "FGID2466QF4A"
-    ],
+
+    "compatible_models": ["WDT780SAEM1", "LDF7774ST", "FGID2466QF4A"],
+
     "symptoms_vector": [
       "loud humming noise",
       "water not spraying",
       "dishwasher stops mid cycle",
       "poor wash performance"
     ],
+
     "installation_metadata": {
       "difficulty": "Hard",
       "time_required": "1-2 hours",
-      "tools_needed": [
-        "Nut driver",
-        "Torx screwdriver"
-      ]
+      "tools_needed": ["Nut driver", "Torx screwdriver"]
     },
-    "installation_guide_markdown": "Disconnect power \u2192 Remove lower panel \u2192 Tilt dishwasher \u2192 Detach pump \u2192 Install new motor \u2192 Reassemble",
+
+    "installation_guide_markdown": "Disconnect power → Remove lower panel → Tilt dishwasher → Detach pump → Install new motor → Reassemble",
+
     "troubleshooting_tips": "If the pump hums but does not spin, the impeller may be jammed."
   },
+
   {
     "id": "PS10065979",
     "part_number": "PS10065979",
@@ -9345,27 +9422,29 @@
     "rating": 4.5,
     "review_count": 156,
     "image_url": "https://via.placeholder.com/300x300?text=Drive+Belt",
+
     "description": "OEM washer drive belt transfers power from the motor to the drum for spinning and agitation.",
-    "compatible_models": [
-      "GTW330ASK0WW",
-      "HTW240ASK3WS"
-    ],
+
+    "compatible_models": ["GTW330ASK0WW", "HTW240ASK3WS"],
+
     "symptoms_vector": [
       "washer not spinning",
       "burning rubber smell",
       "agitation stopped",
       "drum not moving"
     ],
+
     "installation_metadata": {
       "difficulty": "Medium",
       "time_required": "30-45 minutes",
-      "tools_needed": [
-        "Socket wrench"
-      ]
+      "tools_needed": ["Socket wrench"]
     },
-    "installation_guide_markdown": "Disconnect power \u2192 Tilt washer \u2192 Remove protective shield \u2192 Loop new belt over motor and drum \u2192 Reinstall shield",
+
+    "installation_guide_markdown": "Disconnect power → Tilt washer → Remove protective shield → Loop new belt over motor and drum → Reinstall shield",
+
     "troubleshooting_tips": "If the new belt slips, check for oil or detergent residue on pulleys."
   },
+
   {
     "id": "PS341671",
     "part_number": "PS341671",
@@ -9378,57 +9457,60 @@
     "rating": 4.9,
     "review_count": 310,
     "image_url": "https://via.placeholder.com/300x300?text=Thermal+Fuse",
+
     "description": "Safety thermal fuse that shuts off dryer power if overheating occurs.",
-    "compatible_models": [
-      "DV45H7000EW",
-      "DV40J3000EW"
-    ],
+
+    "compatible_models": ["DV45H7000EW", "DV40J3000EW"],
+
     "symptoms_vector": [
       "dryer won't turn on",
       "no heat",
       "dryer stopped mid cycle"
     ],
+
     "installation_metadata": {
       "difficulty": "Easy",
       "time_required": "15 minutes",
-      "tools_needed": [
-        "Nut driver"
-      ]
+      "tools_needed": ["Nut driver"]
     },
-    "installation_guide_markdown": "Unplug dryer \u2192 Remove rear panel \u2192 Disconnect old fuse \u2192 Attach new fuse \u2192 Reinstall panel",
+
+    "installation_guide_markdown": "Unplug dryer → Remove rear panel → Disconnect old fuse → Attach new fuse → Reinstall panel",
+
     "troubleshooting_tips": "Always clean the lint duct before replacing the fuse."
   },
+
   {
     "id": "PS1993876",
     "part_number": "PS1993876",
     "name": "Refrigerator Evaporator Fan Motor",
     "brand": "LG",
     "category": "Refrigerator",
-    "price": 89.5,
+    "price": 89.50,
     "currency": "USD",
     "in_stock": true,
     "rating": 4.6,
     "review_count": 142,
     "image_url": "https://via.placeholder.com/300x300?text=Evaporator+Fan",
+
     "description": "Evaporator fan motor that circulates cold air through the freezer and fresh food compartments.",
-    "compatible_models": [
-      "LSXS26366D",
-      "LFX25971ST"
-    ],
+
+    "compatible_models": ["LSXS26366D", "LFX25971ST"],
+
     "symptoms_vector": [
       "freezer warm",
       "refrigerator not cooling",
       "loud fan noise",
       "frost buildup"
     ],
+
     "installation_metadata": {
       "difficulty": "Medium",
       "time_required": "45 minutes",
-      "tools_needed": [
-        "Phillips screwdriver"
-      ]
+      "tools_needed": ["Phillips screwdriver"]
     },
-    "installation_guide_markdown": "Unplug fridge \u2192 Remove freezer rear panel \u2192 Disconnect fan \u2192 Install new motor \u2192 Reassemble",
+
+    "installation_guide_markdown": "Unplug fridge → Remove freezer rear panel → Disconnect fan → Install new motor → Reassemble",
+
     "troubleshooting_tips": "If fan is silent but compressor runs, voltage may not be reaching the motor."
   }
 ]

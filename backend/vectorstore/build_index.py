@@ -1,5 +1,3 @@
-# backend/vectorstore/build_index.py
-
 import json
 import os
 import faiss
@@ -7,28 +5,31 @@ import numpy as np
 from tqdm import tqdm
 from sentence_transformers import SentenceTransformer
 
-# Load local embedding model (no API needed)
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
-DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "parts.json")
+DATA_PATH = os.path.join(
+    os.path.dirname(__file__), "..", "data", "full_catalog.json"
+)
+
 OUT_INDEX = os.path.join(os.path.dirname(__file__), "index.faiss")
 OUT_META = os.path.join(os.path.dirname(__file__), "parts_metadata.json")
 
 
 def embed_text(text: str):
-    """Local embedding model — no API key, no errors."""
     return model.encode(text).tolist()
 
 
 def combine_fields(item):
-    """Turn a part into a single search-friendly text blob."""
+    """Combine rich schema fields into a single semantic embedding blob."""
     fields = [
-        item.get("name") or "",
-        item.get("description") or "",
+        item.get("name", ""),
+        item.get("brand", ""),
+        item.get("category", ""),
+        item.get("description", ""),
+        " ".join(item.get("symptoms_vector", [])),
+        item.get("installation_guide_markdown", ""),
+        item.get("troubleshooting_tips", ""),
         " ".join(item.get("compatible_models", [])),
-        " ".join(item.get("symptoms", [])),
-        " ".join(item.get("installation_texts", [])),
-        " ".join(item.get("troubleshooting_texts", [])),
     ]
     return " ".join(fields)
 
@@ -48,15 +49,15 @@ def main():
         embeddings.append(vec)
         metadata.append(item)
 
-    # Convert to numpy
+   
     matrix = np.array(embeddings).astype("float32")
 
-    # Build FAISS index
-    dim = len(embeddings[0])
+    #  FAISS index
+    dim = matrix.shape[1]
     index = faiss.IndexFlatL2(dim)
     index.add(matrix)
 
-    # Save index + metadata
+    # index + metadata
     faiss.write_index(index, OUT_INDEX)
 
     with open(OUT_META, "w") as f:

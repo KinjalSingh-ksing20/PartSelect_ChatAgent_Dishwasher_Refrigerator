@@ -17,6 +17,9 @@ load_dotenv()
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
 DEEPSEEK_BASE_URL = os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
 
+if not DEEPSEEK_API_KEY:
+    raise RuntimeError("DEEPSEEK_API_KEY is missing from environment variables.")
+
 client = OpenAI(
     api_key=DEEPSEEK_API_KEY,
     base_url=DEEPSEEK_BASE_URL,
@@ -43,6 +46,10 @@ def deepseek_chat(system_prompt: str, user_prompt: str) -> str:
             )
 
             answer = resp.choices[0].message.content
+
+            if not answer:
+                return "I'm sorry, I couldn't generate a response at the moment."
+
             span.set_attribute("deepseek.response_length", len(answer))
             return answer
 
@@ -50,4 +57,3 @@ def deepseek_chat(system_prompt: str, user_prompt: str) -> str:
             errors_total.labels("deepseek").inc()
             span.record_exception(e)
             raise
-

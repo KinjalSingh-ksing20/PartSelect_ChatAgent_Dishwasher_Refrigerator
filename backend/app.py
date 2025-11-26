@@ -1,31 +1,28 @@
-# backend/app.py
-
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
-from typing import Any, Dict
+from typing import Any, Dict, Optional
+from data.catalog_registry import load_catalog_registry
 
-# --- Observability ---
+load_catalog_registry()
+
+
 from observability.tracing import setup_tracing
 from prometheus_fastapi_instrumentator import Instrumentator
 
 from agents.agent import AgentController
 
 
-# ------------------------------------
 # FastAPI App Config
-# ------------------------------------
 app = FastAPI(
     title="PartSelect Chat Agent",
-    description="Backend for refrigerator/dishwasher Parts Chat Agent using DeepSeek + FAISS.",
-    version="0.1.0",
+    description="Backend for refrigerator/dishwasher Parts Chat Agent using FAISS + Local Embeddings.",
+    version="0.2.0",
 )
 
-# Initialize OpenTelemetry tracing
+
 tracer = setup_tracing()
-
 Instrumentator().instrument(app).expose(app)
-
 
 # CORS for local frontend
 app.add_middleware(
@@ -38,15 +35,14 @@ app.add_middleware(
 
 agent = AgentController()
 
-
-# -------------------------
-# Pydantic Models
-# -------------------------
+# Pydantic Models-
 class ChatRequest(BaseModel):
     message: str
+    session_id: Optional[str] = None  
 
 
 class ChatResponse(BaseModel):
+    session_id: str
     intent: str
     entities: Dict[str, Any]
     tool_used: str | None
@@ -67,9 +63,7 @@ class TroubleshootRequest(BaseModel):
     description: str
 
 
-# -------------------------
 # Routes
-# -------------------------
 @app.get("/health")
 async def health():
     return {"status": "ok"}
@@ -77,7 +71,10 @@ async def health():
 
 @app.post("/chat", response_model=ChatResponse)
 async def chat(req: ChatRequest):
-    return await agent.handle_chat(req.message)
+    return await agent.handle_chat(
+        query=req.message,
+        session_id=req.session_id  
+    )
 
 
 @app.post("/compatibility")
@@ -93,4 +90,3 @@ async def installation(req: InstallationRequest):
 @app.post("/troubleshoot")
 async def troubleshoot(req: TroubleshootRequest):
     return await agent.troubleshoot(req.description)
-

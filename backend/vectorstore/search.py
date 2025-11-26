@@ -1,13 +1,10 @@
-# backend/vectorstore/search.py
-
 import os
 import json
 from typing import List, Dict, Any
 
 import faiss
 import numpy as np
-from dotenv import load_dotenv
-from openai import OpenAI
+from sentence_transformers import SentenceTransformer
 
 # --- Observability ---
 from opentelemetry import trace
@@ -15,20 +12,17 @@ from observability.metrics import vector_search_total, errors_total
 
 tracer = trace.get_tracer(__name__)
 
-load_dotenv()
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-INDEX_PATH = os.path.join(BASE_DIR, "index.faiss")
-META_PATH = os.path.join(BASE_DIR, "parts_metadata.json")
-
-_openai_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+INDEX_PATH = os.path.join(BASE_DIR, "vectorstore", "index.faiss")
+META_PATH = os.path.join(BASE_DIR, "vectorstore", "parts_metadata.json")
 
 _index = None
 _metadata = None
+_model = SentenceTransformer("all-MiniLM-L6-v2")
 
 
 def _load_index() -> bool:
-    """Load FAISS index + metadata into memory once."""
     global _index, _metadata
 
     if _index is not None and _metadata is not None:
@@ -48,23 +42,12 @@ def _load_index() -> bool:
 
 
 def _embed_query(text: str) -> np.ndarray:
-    """Embed query using OpenAI text-embedding-3-small."""
-    resp = _openai_client.embeddings.create(
-        model="text-embedding-3-small",
-        input=text,
-    )
-    vec = np.array(resp.data[0].embedding, dtype="float32")
-    return vec.reshape(1, -1)
+    vec = _model.encode([text])
+    return np.array(vec).astype("float32")
 
 
 def semantic_search(query: str, top_k: int = 5) -> List[Dict[str, Any]]:
-    """
-    Vector search with:
-    - Prometheus metrics
-    - OpenTelemetry tracing
-    - Error instrumentation
-    """
-    vector_search_total.inc()  # Prometheus counter
+    vector_search_total.inc()
 
     with tracer.start_as_current_span("vectorstore.semantic_search") as span:
         try:
@@ -73,21 +56,16 @@ def semantic_search(query: str, top_k: int = 5) -> List[Dict[str, Any]]:
             if not _load_index():
                 return []
 
-            # Embed + search
             q_vec = _embed_query(query)
             distances, indices = _index.search(q_vec, top_k)
 
-            # Build results
             results = []
             for dist, idx in zip(distances[0], indices[0]):
                 if idx < 0 or idx >= len(_metadata):
                     continue
 
                 part = _metadata[int(idx)]
-                results.append({
-                    "score": float(dist),
-                    "part": part,
-                })
+                results.append(part)
 
             span.set_attribute("results_count", len(results))
             return results
@@ -96,4 +74,3 @@ def semantic_search(query: str, top_k: int = 5) -> List[Dict[str, Any]]:
             errors_total.labels("vectorstore").inc()
             span.record_exception(e)
             raise
-

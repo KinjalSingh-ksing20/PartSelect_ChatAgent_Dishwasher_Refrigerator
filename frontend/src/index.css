@@ -1,13 +1,144 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: Inter, system-ui, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background: #f4f6f8;
+}
+
+.ps-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #2f7d78;
+  padding: 14px 32px;
+  color: white;
+}
+
+.ps-logo {
+  height: 54px;
+  object-fit: contain;
+}
+
+.ps-header-right {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.ps-nav-item {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.ps-cart {
+  font-size: 22px;
+  cursor: pointer;
+  background: #f5c84b;
+  color: black;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+/* ✅ CHAT STAYS CENTERED */
+.chat-container {
+  width: 100%;
+  max-width: 840px;
+  margin: 40px auto;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.messages-scroll {
+  flex: 1;
+  padding: 24px 32px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.chat-message {
+  max-width: 70%;
+  padding: 12px 18px;
+  border-radius: 18px;
+  font-size: 16px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.chat-user {
+  align-self: flex-end;
+  background: #2f7d78;
+  color: white;
+}
+
+.chat-bot {
+  align-self: flex-start;
+  background: #eef2f3;
+  color: #111827;
+}
+
+.product-rec-box {
+  position: fixed;
+  left: 20px;
+  top: 120px;
+  width: 300px;
+  max-height: calc(100vh - 160px);
+  overflow-y: auto;
+
+  background: #ffffff;
+
+  border: 2px solid #2f7d78;
+  box-shadow: 0 8px 24px rgba(47, 125, 120, 0.25);
+
+  border-radius: 14px;
+  padding: 18px;
+
+  z-index: 50;
+}
+
+
+
+.product-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+.input-bar {
+  display: flex;
+  padding: 16px 20px;
+  border-top: 1px solid #e5e7eb;
+  background: white;
+}
+
+.input-bar input {
+  flex: 1;
+  padding: 14px;
+  font-size: 15px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  outline: none;
+}
+
+.input-bar button {
+  margin-left: 12px;
+  background-color: #2f7f79;
+  color: white;
+  border: none;
+  padding: 0 22px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
 }
